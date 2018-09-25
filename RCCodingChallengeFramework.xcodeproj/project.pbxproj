@@ -8,12 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		CA08C22921599ACC00B72135 /* RCCodingChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CA08C22721599ACC00B72135 /* RCCodingChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA08C23121599B6B00B72135 /* RCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA08C22F21599B6B00B72135 /* RCLocationManager.h */; };
+		CA08C23221599B6B00B72135 /* RCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08C23021599B6B00B72135 /* RCLocationManager.m */; };
+		CA38694A215AA0C100C8BE0B /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CA386949215AA0C100C8BE0B /* RCConstants.m */; };
+		CA6A55332159F347000BEA70 /* RCErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6A55312159F347000BEA70 /* RCErrorHelper.h */; };
+		CA6A55342159F347000BEA70 /* RCErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A55322159F347000BEA70 /* RCErrorHelper.m */; };
+		CA6A55352159FB7B000BEA70 /* RCErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6A552E2159EA38000BEA70 /* RCErrors.h */; };
+		CA6A553A2159FDDB000BEA70 /* RCWeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6A55382159FDDB000BEA70 /* RCWeatherService.h */; };
+		CA6A553B2159FDDB000BEA70 /* RCWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A55392159FDDB000BEA70 /* RCWeatherService.m */; };
+		CA6A553F215A1612000BEA70 /* RCWeatherInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6A553D215A1612000BEA70 /* RCWeatherInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6A5540215A1612000BEA70 /* RCWeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A553E215A1612000BEA70 /* RCWeatherInfo.m */; };
+		CA6A5543215A2A98000BEA70 /* RCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6A5541215A2A98000BEA70 /* RCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6A5544215A2A98000BEA70 /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A5542215A2A98000BEA70 /* RCManager.m */; };
+		CAB8DE6F2159E07E00533F7C /* RCDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB8DE6D2159E07E00533F7C /* RCDeviceManager.h */; };
+		CAB8DE702159E07E00533F7C /* RCDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB8DE6E2159E07E00533F7C /* RCDeviceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA08C22421599ACC00B72135 /* RCCodingChallengeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCCodingChallengeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA08C22721599ACC00B72135 /* RCCodingChallengeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCodingChallengeFramework.h; sourceTree = "<group>"; };
 		CA08C22821599ACC00B72135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA08C22F21599B6B00B72135 /* RCLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLocationManager.h; sourceTree = "<group>"; };
+		CA08C23021599B6B00B72135 /* RCLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLocationManager.m; sourceTree = "<group>"; };
+		CA386948215AA0B100C8BE0B /* RCConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCConstants.h; sourceTree = "<group>"; };
+		CA386949215AA0C100C8BE0B /* RCConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCConstants.m; sourceTree = "<group>"; };
+		CA6A552E2159EA38000BEA70 /* RCErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCErrors.h; sourceTree = "<group>"; };
+		CA6A55312159F347000BEA70 /* RCErrorHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCErrorHelper.h; sourceTree = "<group>"; };
+		CA6A55322159F347000BEA70 /* RCErrorHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCErrorHelper.m; sourceTree = "<group>"; };
+		CA6A55382159FDDB000BEA70 /* RCWeatherService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWeatherService.h; sourceTree = "<group>"; };
+		CA6A55392159FDDB000BEA70 /* RCWeatherService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWeatherService.m; sourceTree = "<group>"; };
+		CA6A553D215A1612000BEA70 /* RCWeatherInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWeatherInfo.h; sourceTree = "<group>"; };
+		CA6A553E215A1612000BEA70 /* RCWeatherInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWeatherInfo.m; sourceTree = "<group>"; };
+		CA6A5541215A2A98000BEA70 /* RCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCManager.h; sourceTree = "<group>"; };
+		CA6A5542215A2A98000BEA70 /* RCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCManager.m; sourceTree = "<group>"; };
+		CAB8DE6D2159E07E00533F7C /* RCDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCDeviceManager.h; sourceTree = "<group>"; };
+		CAB8DE6E2159E07E00533F7C /* RCDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCDeviceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +75,57 @@
 		CA08C22621599ACC00B72135 /* RCCodingChallengeFramework */ = {
 			isa = PBXGroup;
 			children = (
+				CA6A55372159FDBB000BEA70 /* Services */,
+				CA6A553C215A15D4000BEA70 /* Models */,
+				CA6A552D2159E920000BEA70 /* Managers */,
+				CA6A552F2159F00C000BEA70 /* Supporting */,
 				CA08C22721599ACC00B72135 /* RCCodingChallengeFramework.h */,
-				CA08C22821599ACC00B72135 /* Info.plist */,
 			);
 			path = RCCodingChallengeFramework;
+			sourceTree = "<group>";
+		};
+		CA6A552D2159E920000BEA70 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A5541215A2A98000BEA70 /* RCManager.h */,
+				CA6A5542215A2A98000BEA70 /* RCManager.m */,
+				CA08C22F21599B6B00B72135 /* RCLocationManager.h */,
+				CA08C23021599B6B00B72135 /* RCLocationManager.m */,
+				CAB8DE6D2159E07E00533F7C /* RCDeviceManager.h */,
+				CAB8DE6E2159E07E00533F7C /* RCDeviceManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CA6A552F2159F00C000BEA70 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A552E2159EA38000BEA70 /* RCErrors.h */,
+				CA6A55312159F347000BEA70 /* RCErrorHelper.h */,
+				CA6A55322159F347000BEA70 /* RCErrorHelper.m */,
+				CA386948215AA0B100C8BE0B /* RCConstants.h */,
+				CA386949215AA0C100C8BE0B /* RCConstants.m */,
+				CA08C22821599ACC00B72135 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		CA6A55372159FDBB000BEA70 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A55382159FDDB000BEA70 /* RCWeatherService.h */,
+				CA6A55392159FDDB000BEA70 /* RCWeatherService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA6A553C215A15D4000BEA70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A553D215A1612000BEA70 /* RCWeatherInfo.h */,
+				CA6A553E215A1612000BEA70 /* RCWeatherInfo.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +135,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6A55332159F347000BEA70 /* RCErrorHelper.h in Headers */,
+				CA6A5543215A2A98000BEA70 /* RCManager.h in Headers */,
+				CA6A55352159FB7B000BEA70 /* RCErrors.h in Headers */,
+				CA6A553F215A1612000BEA70 /* RCWeatherInfo.h in Headers */,
+				CA6A553A2159FDDB000BEA70 /* RCWeatherService.h in Headers */,
+				CA08C23121599B6B00B72135 /* RCLocationManager.h in Headers */,
+				CAB8DE6F2159E07E00533F7C /* RCDeviceManager.h in Headers */,
 				CA08C22921599ACC00B72135 /* RCCodingChallengeFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA38694A215AA0C100C8BE0B /* RCConstants.m in Sources */,
+				CA6A5544215A2A98000BEA70 /* RCManager.m in Sources */,
+				CAB8DE702159E07E00533F7C /* RCDeviceManager.m in Sources */,
+				CA6A5540215A1612000BEA70 /* RCWeatherInfo.m in Sources */,
+				CA08C23221599B6B00B72135 /* RCLocationManager.m in Sources */,
+				CA6A55342159F347000BEA70 /* RCErrorHelper.m in Sources */,
+				CA6A553B2159FDDB000BEA70 /* RCWeatherService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +354,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RCCodingChallengeFramework/Info.plist;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RCCodingChallengeFramework/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,7 +379,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RCCodingChallengeFramework/Info.plist;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RCCodingChallengeFramework/Supporting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
