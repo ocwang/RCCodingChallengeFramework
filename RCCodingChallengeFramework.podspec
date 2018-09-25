@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
   #  "http://EXAMPLE/RCCodingChallengeFramework.git", :tag => "#{s.version}"
   #
 
-  s.source       = { :path => '.' }
+  s.source       = { :path => "https://github.com/ocwang/RCCodingChallengeFramework.git", :branch => 'master' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
