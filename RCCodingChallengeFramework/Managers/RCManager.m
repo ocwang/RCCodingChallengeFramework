@@ -49,7 +49,12 @@
 # pragma mark - Methods
 
 - (void)currentLocationWithHandler:(void (^_Nonnull)(CLLocation *location, NSError *error))handler {
-    [self.locationManager getLocationWithHandler:handler];
+    // user must have iOS 9 or above for requestLocations API
+    if (@available(iOS 9.0, *)) {
+        [self.locationManager getLocationWithHandler:handler];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 - (void)batteryInfoWithHandler:(void (^_Nonnull)(BOOL isPluggedIn, float batteryLevel, NSError *error))handler {
