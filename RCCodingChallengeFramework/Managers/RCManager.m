@@ -10,6 +10,7 @@
 #import "RCLocationManager.h"
 #import "RCDeviceManager.h"
 #import "../Services/RCWeatherService.h"
+#import "../Supporting/RCErrorHelper.h"
 
 @interface RCManager ()
 
@@ -53,7 +54,8 @@
     if (@available(iOS 9.0, *)) {
         [self.locationManager getLocationWithHandler:handler];
     } else {
-        // Fallback on earlier versions
+        NSError *error = [RCErrorHelper errorWithCode:kRCErrorOSVersionUnsupported];
+        handler(nil, error);
     }
 }
 
